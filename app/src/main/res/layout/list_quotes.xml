@@ -37,6 +37,7 @@
         <Button
             android:id="@+id/buttonCopy"
             android:text="Copiar"
+            android:backgroundTint="#E64A19"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
