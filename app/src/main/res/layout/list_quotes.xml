@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/black"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="8dp"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/textView_quote"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Test"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:padding="8dp"
+           /> <TextView
+            android:id="@+id/textView_author"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Author"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:padding="8dp"
+           />
+        <Button
+            android:id="@+id/buttonCopy"
+            android:text="Copiar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
